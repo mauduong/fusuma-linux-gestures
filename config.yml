@@ -1,0 +1,41 @@
+# Custom gestures Ubuntu 18.04 LTS
+# cd ~/.config/fusuma 
+
+swipe:
+  3: 
+    left: 
+      command: 'xdotool key alt+Right'
+    right: 
+      command: 'xdotool key alt+Left'
+    up: 
+      command: 'xdotool key super+a'
+    down: 
+      command: 'xdotool key super+s'
+  4:
+    left: 
+      command: 'xdotool key super+m'
+    right: 
+      command: 'xdotool key super+m'
+    up: 
+      command: 'xdotool key ctrl+alt+Down'
+    down: 
+      command: 'xdotool key ctrl+alt+Up'
+pinch:
+  2:
+     in:
+      command: 'xdotool key ctrl+plus'
+     out:
+      command: 'xdotool key ctrl+minus'
+  3: 
+     in:
+      command: 'xdotool key super+d'
+     out:
+      command: 'xdotool key super+d'
+
+threshold:
+  swipe: 0.4
+  pinch: 0.3
+
+interval:
+  swipe: 0.8
+  pinch: 0.1
