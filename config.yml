@@ -1,4 +1,4 @@
-# Custom gestures Ubuntu 18.04 LTS, OpenSuse LEAP 15.1
+# Custom gestures Ubuntu 18.04 LTS
 # cd ~/.config/fusuma 
 
 swipe:
@@ -8,18 +8,18 @@ swipe:
     right: 
       command: 'xdotool key alt+Left'
     up: 
-      command: 'xdotool key super+a'
+      command: 'xdotool key super+s'
     down: 
       command: 'xdotool key super+s'
   4:
     left: 
-      command: 'xdotool key super+m'
-    right: 
-      command: 'xdotool key super+m'
-    up: 
       command: 'xdotool key ctrl+alt+Down'
-    down: 
+    right: 
       command: 'xdotool key ctrl+alt+Up'
+    up: 
+      command: 'xdotool key super+a'
+    down: 
+      command: 'xdotool key super+a'
 pinch:
   2:
      in:
